@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-    run-on: [ linux ]
+    runs-on: [ linux ]
     steps:
       - name: echo a string
         run: echo "Hello World!!!"
