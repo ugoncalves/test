@@ -6,6 +6,5 @@ jobs:
   run-shell-command:
     run-on: [ linux ]
     steps:
-      - name
-        name: echo a string
+      - name: echo a string
         run: echo "Hello World!!!"
